@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "ts-node": {
+        "esm": true
+    },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
